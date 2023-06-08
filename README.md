@@ -1,2 +1,2 @@
-# retrobit
-A retro html homepage
+# Retrobit - A retro html homepage
+![screenshot](/screenshot.png)
