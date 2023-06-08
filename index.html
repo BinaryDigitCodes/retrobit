@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.some.pics/bit/64814836eed6b.png">
-	<title>Retro Bit</title>
+  <title>Retro Bit</title>
 </head>
 <body>
       <div id="container">
         <!-- <div id="topBar">Put a quote here</div> -->
         <div id="header" style="height: 200px;"></div>
           <div id="headerArea">
-          <nav id="navbar" style="margin-bottom: 10px;">
+          <nav id="navbar">
             <ul>
               <li><a href="#">Home</a></li>
-              <li><a rel="me" href="https://binarydigit.io">Main Site</a></li>
+              <li><a rel="me" href="https://binarydigit.io">Main</a></li>
               <li><a rel="me" href="https://binarydigit.cafe">Blog</a></li>
               <li><a rel="me" href="https://mstdn.games/@BinaryDigit">Mastodon</a></li>
             </ul>
@@ -22,8 +22,8 @@
         </div>
 
           <div id="flex">
-              <aside id="leftSidebar" style="margin-right: 10px;">
-                  <h3>Statuslog:</h3>
+              <aside id="leftSidebar">
+                  <h2>Current Status</h2>
                   <div class="box">
 
                       <script src="https://status.lol/bit.js?time&link&fluent&no-emoji"></script>
@@ -37,7 +37,7 @@
                   </div>
 <!--                   <h2>Hi there!</h2>
                   <p>Do you have a suggestion for a feature? Some criticism about the tool or something that confused you? Let me know! sadgrl[at]riseup.net</p> -->
-                  <h3>Resources</h3>
+                  <h2>Resources</h2>
                   <ul>
                       <li><a href="https://sadgrlonline.github.io/html-cheatsheet/" target="_blank">HTML Cheatsheet</a>
                       </li><li><a href="https://sadgrl.online/webmastery/webmaster-links.html" target="_blank">Webmaster Links</a></li>
@@ -45,19 +45,29 @@
                       <li><a href="https://sadgrl.online/webmastery/downloads/fonts.html" target="_blank">Fonts</a></li>
                       <li><a href="https://sadgrl.online/projects/ideas/" target="_blank">Site Ideas</a></li>
                   </ul>
+
               </aside>
               <main>
+
                   <h1>Welcome to Retro Bit!</h1>
-                  <p><strong>Hello </strong></p>
-<p>Mario ipsum RGB mushroom 1-up. Invincible Luigi Japan fire bar. Platform bill blaster piranha plant. Fire flower A-button Bowser, Mario invincible Mario vine Mushroom Kingdom radio frequency modulator super mushroom red shell. A-button start button bill blaster cloud Luigi cheep cheep Bowser super Luigi lakitu super mushroom vine side-scrolling, piranha plant super Mario piranha plant run. Bottomless pit bridge lakitu red shell game over podoboo vine Mario!</p>
+                  <p><strong>BinaryDigit Hitting you with Nostalgia</strong></p>
+<p>I hope to fill this page with trinkets of items from the early web, namely the early 2000's which were when I loved technology the most.</p>
 
-<p>Bullet bill Mario Bros cheep cheep, spiny fireball lakitu time life cheep cheep! 8-bit podoboo. Pixel bridge starman PAL, starman B-button reset cloud power plumber game pak cheep cheep A-button! Mario starman radio frequency modulator hammer bro plumber fireball. Select button cloud koopa troopa bullet bill. Run Bowser Mushroom Kingdom Japan game over, Luigi warp zone super mushroom?</p>
+<p>Thank you <a href="https://sadgrl.online/">sadgrl.online</a> for providing awesome resources to retro web styles and front end code tutorials.</p>
 
-<p>Castle super Luigi Nintendo Entertainment System life fire flower swim. Buzzy beetle lava spiny 8-bit. PAL side-scrolling bill blaster. Fire flower cheep cheep green shell podoboo, Mario Bros radio frequency modulator starman super Luigi start button bridge blooper! Mario Bros platform swim bottomless pit Mario! RGB fire bar pipe castle goomba? B-button radio frequency modulator super Luigi? Bridge blooper super mushroom 1985? Swim jump cheep cheep.</p>
+<p>Time to find some badges and scrolling marquee. XD</p>
               </main>
-              
+              <aside id="rightSidebar">
+       <h2>Chatbox</h2>
+          <div class="box">
+            <iframe src="https://www3.cbox.ws/box/?boxid=3528950&boxtag=pfn3UK" width="100%" height="300" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>   
           </div>
-          <footer id="footer" style="margin-top: 10px;">Made with 💙 by BinaryDigit</footer>
+            
+        </aside>
+          </div>
+          <footer id="footer">Powered by <a href="https://home.omg.lol/referred-by/binarydigit"><img class="prami-logo" width="20px" src="https://cdn.cache.lol/img/prami_hybrid.svg"></a>
+</footer>
+
       </div>
       <!-- THIS IS THE CSS !-->
       <style>
@@ -139,7 +149,7 @@
   the other elements, you will need to move that div outside
   of the container */
           #container {
-              max-width: 900px;
+              max-width: 1200px;
               /* this is the width of your layout! */
               /* if you change the above value, scroll to the bottom
     and change the media query according to the comment! */
@@ -213,7 +223,7 @@
   create styles for #leftSidebar and #rightSidebar */
           aside {
               background-color: #241445;
-              width: 200px;
+              width: 300px;
               padding: 20px;
               font-size: smaller;
               /* this makes the sidebar text slightly smaller */
@@ -295,7 +305,7 @@
   "max-width" value below
   */
 
-          @media only screen and (max-width: 800px) {
+          @media only screen and (max-width: 1100px) {
               #flex {
                   flex-wrap: wrap;
               }
